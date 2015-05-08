@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#fafffb">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="64dip" android:layout_marginBottom="10dip"
+                  android:background="@drawable/wh_taskheaderbg">
+        <ImageView
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:id="@+id/imageView" android:layout_gravity="left|top"
+                android:src="@drawable/wh_peran" android:layout_marginLeft="40dip"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="64dip"
+                android:text="PILIH PERAN"
+                android:id="@+id/textView" android:layout_gravity="center" android:textSize="25sp"
+                android:textColor="#ff0c29" android:textStyle="bold"
+                android:gravity="center|left"/>
+    </LinearLayout>
+
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <TextView
+                android:id="@+id/OperatorLoginTime"
+                android:text="Login Time :"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true" android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip" android:textStyle="bold" android:textColor="@android:color/black"/>
+
+        <TextView
+                android:id="@+id/OperatorCode"
+                android:text="USER :"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true" android:layout_marginLeft="5dip"
+                android:layout_marginBottom="5dip" android:textStyle="bold" android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

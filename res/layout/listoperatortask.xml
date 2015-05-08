@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#bfbfbf">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="2dip" android:paddingTop="2dip"
+            android:background="@drawable/wh_taskbg" android:layout_marginBottom="2dip">
+
+
+
+        <!-- Name Label -->
+
+
+        <ImageView
+                android:layout_width="64dip"
+                android:layout_height="64dip"
+                android:id="@+id/imageViewOPT" android:layout_gravity="center|top"
+                android:layout_marginLeft="5dip"
+                android:src="@drawable/ic_launcher" android:layout_marginTop="5dip"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:id="@+id/namaOPT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:paddingTop="6dip"
+                    android:paddingBottom="2dip"
+                    android:layout_marginLeft="5dip" android:text="Nama Task" android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Project Code"
+                    android:layout_marginLeft="5dip"
+                    android:id="@+id/ProjectCodeOPT" android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

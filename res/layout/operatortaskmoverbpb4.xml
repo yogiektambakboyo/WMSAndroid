@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@android:color/white"
+              android:baselineAligned="false">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Taruh Bin"
+            android:id="@+id/OPTMB2" android:layout_gravity="center" android:textStyle="bold" android:textSize="24sp"
+            android:textColor="@android:color/black" android:gravity="center_horizontal" android:background="@android:color/darker_gray"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BPB"
+            android:id="@+id/OPTMBPB4_BPB" android:layout_gravity="center"
+            android:textColor="@android:color/black" android:textSize="16sp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Bin"
+            android:id="@+id/OPTMBPB4_TxtKodeBin" android:layout_gravity="center" android:textSize="18sp"
+            android:textColor="@android:color/black" android:textStyle="bold" android:singleLine="false"
+            android:gravity="center_vertical|center_horizontal"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barang"
+            android:id="@+id/OPTMBPB4_Brg" android:layout_gravity="center" android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dest Rack :"
+            android:id="@+id/OPTMBPB4_DestRack" android:layout_gravity="center" android:textColor="@android:color/black"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="12dip" android:background="#F0ECEB">
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dip" android:background="#A3D6F5" android:baselineAligned="false">
+        <TextView
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:text="Kode Bin"
+                android:id="@+id/textView" android:layout_gravity="left|center_vertical"
+                android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                android:textSize="16sp"/>
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/OPTMBPB4_KodeBin" android:layout_gravity="center_horizontal|bottom" android:hint="Kode Bin"
+                  android:textColor="@android:color/black" android:inputType="number" android:singleLine="true"
+                  android:maxLength="7"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OPTMBPB4_KodeBinMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                android:src="@drawable/wh_error"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dip" android:background="#CEEBFB">
+        <TextView
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:text="Rak Tujuan"
+                android:id="@+id/textView1" android:layout_gravity="left|center_vertical"
+                android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                android:textSize="16sp"/>
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/OPTMBPB4_RackDest" android:layout_gravity="center" android:hint="Rak Tujuan"
+                  android:textColor="@android:color/black" android:inputType="number" android:singleLine="true"
+                  android:maxLength="8"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rak Salah"
+                android:id="@+id/OPTMBPB4_TxtRack" android:layout_gravity="center" android:textColor="@android:color/black"
+                android:textStyle="bold" android:textSize="16sp"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OPTMBPB4_RackDestMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                android:src="@drawable/wh_error"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dip" android:background="#A3D6F5">
+        <TextView
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:id="@+id/textView2" android:layout_gravity="left|center_vertical"
+                android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                android:textSize="16sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Brg"
+                android:id="@+id/OPTMBPB4_Qty" android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" android:textSize="16sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rasio"
+                android:id="@+id/OPTMBPB4_RasioName" android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" android:textSize="16sp" android:layout_marginLeft="5dip"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OPTMBPB4_QtyMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                android:src="@drawable/wh_error"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dip" android:background="#CEEBFB" android:baselineAligned="false">
+        <TextView
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:text="Di Gang"
+                android:id="@+id/textView3" android:layout_gravity="left|center_vertical"
+                android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                android:textSize="16sp"/>
+        <Spinner android:layout_width="wrap_content" android:layout_height="fill_parent"
+                 android:id="@+id/OPTMBPB4_SpinnerGang" android:spinnerMode="dialog"
+                 android:visibility="visible"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OPTMBPB4_GangMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                android:src="@drawable/wh_error"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dip" android:background="#A3D6F5">
+        <TextView
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:text="Bin Tujuan"
+                android:id="@+id/textView4" android:layout_gravity="left|center_vertical"
+                android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                android:textSize="16sp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OPTMBPB4_BinDest" android:layout_gravity="center" android:hint=" Bin Tujuan"
+                android:textColor="@android:color/black" android:singleLine="true" android:maxLength="7"
+                android:inputType="number"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OPTMBPB4_BinDestMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                android:src="@drawable/wh_error"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dip" android:background="#CEEBFB" android:layout_gravity="center"
+                  android:gravity="center_vertical|center_horizontal">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="5dip"
+                android:id="@+id/OPTMBPB4_Submit" android:layout_gravity="center" style="@style/btnStyleGreen"
+                android:layout_marginLeft="5dip" android:layout_marginBottom="5dip"/>
+    </LinearLayout>
+</LinearLayout>

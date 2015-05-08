@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:background="@android:color/white">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Outstanding Picking Belum Taruh"
+                android:id="@+id/textView" android:layout_gravity="center" android:textSize="20sp"
+                android:textIsSelectable="false" android:textColor="@android:color/black" android:textStyle="bold"
+                android:layout_marginBottom="5dip" android:background="@android:color/darker_gray"
+                android:gravity="center_vertical|center_horizontal"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="60dip">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="20dip" android:background="@android:color/white">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bin Sekarang  :"
+                        android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="14sp"
+                        android:layout_marginLeft="5dip" android:gravity="center_vertical|center_horizontal"
+                        android:layout_gravity="center"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kosong"
+                        android:id="@+id/OPTPPCK3_BinCode" android:layout_gravity="center"
+                        android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                        android:layout_marginLeft="5sp"/>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="@android:color/white">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No PickList    :"
+                        android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="14sp"
+                        android:layout_marginLeft="5dip" android:gravity="center_vertical|center_horizontal"
+                        android:layout_gravity="center|top"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Picklist"
+                        android:id="@+id/OPTPPCK3_PickList" android:layout_gravity="center|top"
+                        android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                        android:layout_marginLeft="5sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="365dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_gravity="bottom"
+                   android:orientation="horizontal"
+                   android:paddingLeft="20dp"
+                   android:paddingRight="20dp" android:paddingTop="5dip" android:gravity="center_vertical|center_horizontal">
+
+        <Button
+                android:id="@+id/OPTPPCK3_BtnTaruhBin"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Submit" style="@style/btnStyleGreen" android:layout_marginBottom="3dip"
+                android:layout_gravity="center|right" android:layout_marginTop="2dip"/>
+
+    </LinearLayout>
+</RelativeLayout>

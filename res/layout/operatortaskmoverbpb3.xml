@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@android:color/white">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ambil Bin"
+            android:id="@+id/TextView" android:layout_gravity="center" android:layout_marginBottom="5dip"
+            android:textSize="28dip" android:textStyle="bold" android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal" android:background="@android:color/darker_gray"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="28dip" android:background="@android:color/white">
+
+        <TextView
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:text="BPB                     :"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textSize="16dip" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPB"
+                android:id="@+id/OPTMBPB3_BPB" android:layout_gravity="center"
+                android:textSize="16dip" android:textStyle="bold" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="28dip" android:background="@android:color/white">
+
+        <TextView
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:text="Kode Bin             :"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textSize="16dip" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KodeBin"
+                android:id="@+id/OPTMBPB3_KodeBin" android:layout_gravity="center"
+                android:textSize="16dip" android:textStyle="bold" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dip" android:background="@android:color/white">
+
+        <TextView
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:text="Barang                :"
+                android:id="@+id/TextView" android:layout_gravity="center|top"
+                android:textSize="16dip" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barang"
+                android:id="@+id/OPTMBPB3_NamaBrg" android:layout_gravity="center|top"
+                android:textSize="16dip" android:textStyle="bold" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="28dip" android:background="@android:color/white">
+
+        <TextView
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Barang :"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textSize="16dip" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:id="@+id/OPTMBPB3_Jumlah" android:layout_gravity="center"
+                android:textSize="16dip" android:textStyle="bold" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="28dip" android:background="@android:color/white">
+
+        <TextView
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:text="Rak Tujuan         :"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textSize="16dip" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rak tujuan"
+                android:id="@+id/OPTMBPB3_DestRack" android:layout_gravity="center"
+                android:textSize="16dip" android:textStyle="bold" android:textColor="#000000"
+                android:layout_marginLeft="7dip"/>
+    </LinearLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proses - Ambil Kembali"
+            android:id="@+id/OPTMBPB3_ProsesAmbil" android:layout_gravity="center" style="@style/btnStyleDarkBlue"
+            android:layout_marginTop="10dip"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proses - Simpan"
+            android:id="@+id/OPTMBPB3_Proses" android:layout_gravity="center" style="@style/btnStyleGreen"
+            android:layout_marginTop="10dip"/>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#bfbfbf">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="2dip" android:layout_marginBottom="2dip"
+            android:background="@drawable/wh_taskbg" android:paddingTop="2dip" android:paddingBottom="2dip">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                        android:id="@+id/TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:paddingTop="6dip"
+                        android:paddingBottom="2dip"
+                        android:layout_marginLeft="5dip" android:text="Kd. Transaksi :"/>
+                <TextView
+                        android:id="@+id/OPTPPCK1_TransactionCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:paddingTop="6dip"
+                        android:paddingBottom="2dip"
+                        android:layout_marginLeft="5dip" android:text="Transaction Code" android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                        android:id="@+id/TextView"
+                        android:layout_width="90dip"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:paddingBottom="2dip"
+                        android:layout_marginLeft="5dip" android:text="Kode Nota"/>
+                <TextView
+                        android:id="@+id/OPTPPCK1_ERPCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:paddingBottom="2dip"
+                        android:layout_marginLeft="5dip" android:text="ERP Code" android:textStyle="bold"/>
+             </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                        android:layout_width="90dip"
+                        android:layout_height="wrap_content"
+                        android:text="Tanggal"
+                        android:layout_marginLeft="5dip"
+                        android:id="@+id/TextView" android:layout_gravity="left|center_vertical"
+                        android:textColor="#ffffff" android:textSize="14sp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="tgl"
+                        android:layout_marginLeft="5dip"
+                        android:id="@+id/OPTPPCK1_tgl" android:layout_gravity="left|center_vertical"
+                        android:textColor="#ffffff" android:textStyle="bold" android:textSize="14sp"/>
+            </LinearLayout>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WHCode"
+                    android:id="@+id/OPTPPCK1_WHCode" android:layout_gravity="left|center_vertical"
+                    android:visibility="gone"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EDPanjang"
+                    android:id="@+id/OPTPPCK1_EDPanjang" android:layout_gravity="left|center_vertical"
+                    android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

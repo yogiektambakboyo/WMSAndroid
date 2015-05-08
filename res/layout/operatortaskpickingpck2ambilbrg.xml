@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:background="@android:color/white">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ambil Barang"
+                android:id="@+id/textView" android:layout_gravity="center" android:textSize="20sp"
+                android:textIsSelectable="false" android:textColor="@android:color/black" android:textStyle="bold"
+                android:layout_marginBottom="5dip" android:background="@android:color/darker_gray"
+                android:gravity="center_vertical|center_horizontal"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="20dip" android:background="@android:color/white">
+                <TextView
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:text="Kode Bin"
+                        android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="14sp"
+                        android:layout_marginLeft="5dip"
+                        android:layout_gravity="center" android:gravity="left"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kosong"
+                        android:id="@+id/OPTPPCK2Ambil_BinCode" android:layout_gravity="center"
+                        android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                        android:layout_marginLeft="5sp"/>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="20dip" android:background="@android:color/white">
+                <TextView
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Barang"
+                        android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="14sp"
+                        android:layout_marginLeft="5dip"
+                        android:layout_gravity="center" android:gravity="left"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kosong"
+                        android:id="@+id/OPTPPCK2Ambil_NamaBrg" android:layout_gravity="center"
+                        android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                        android:layout_marginLeft="5sp"/>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="20dip" android:background="@android:color/white">
+                <TextView
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah"
+                        android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="14sp"
+                        android:layout_marginLeft="5dip"
+                        android:layout_gravity="left" android:gravity="left"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kosong"
+                        android:id="@+id/OPTPPCK2Ambil_Jumlah" android:layout_gravity="center"
+                        android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                        android:layout_marginLeft="5sp"/>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#A3D6F5">
+                <TextView
+                        android:layout_width="65dip"
+                        android:layout_height="wrap_content"
+                        android:text="Rak Asal"
+                        android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="14sp"
+                        android:layout_marginLeft="5dip"
+                        android:layout_gravity="left" android:gravity="left" android:textStyle="bold"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/OPTPPCK2Ambil_InputRakAsal" android:layout_gravity="center" android:textSize="14sp"
+                        android:hint="Masukkan Rak Asal" android:inputType="number" android:maxLength="8"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/OPTPPCKAmbil_InputRakAsalMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                        android:src="@drawable/wh_error"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salah"
+                        android:id="@+id/OPTPPCK2Ambil_TxtRack" android:layout_gravity="center"
+                        android:textStyle="bold" android:textColor="@android:color/black"/>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#CEEBFB">
+                <TextView
+                        android:layout_width="65dip"
+                        android:layout_height="wrap_content"
+                        android:text="Bin Asal"
+                        android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="14sp"
+                        android:layout_marginLeft="5dip"
+                        android:layout_gravity="left" android:gravity="left" android:textStyle="bold"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/OPTPPCK2Ambil_InputBinAsal" android:layout_gravity="center" android:textSize="14sp"
+                        android:hint="Masukkan Bin Asal" android:inputType="number" android:maxLength="7"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/OPTPPCKAmbil_InputBinAsalMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                        android:src="@drawable/wh_error"/>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#A3D6F5">
+                <TextView
+                        android:layout_width="65dip"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah"
+                        android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="14sp"
+                        android:layout_marginLeft="5dip"
+                        android:layout_gravity="left" android:gravity="left" android:textStyle="bold"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/OPTPPCK2Ambil_InputJumlah" android:layout_gravity="center" android:textSize="14sp"
+                        android:hint="Jumlah" android:inputType="number" android:maxLength="5"/>
+                <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/OPTPPCK2Ambil_Satuan" android:layout_gravity="center"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/OPTPPCKAmbil_SatuanMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                        android:src="@drawable/wh_error"/>
+            </LinearLayout>
+
+            <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                           android:layout_width="match_parent"
+                           android:layout_height="55dip"
+                           android:layout_alignParentBottom="true"
+                           android:layout_gravity="bottom"
+                           android:orientation="horizontal"
+                           android:paddingLeft="20dp"
+                           android:paddingRight="20dp" android:paddingTop="5dip" android:gravity="center_horizontal"
+                           android:layout_marginTop="3dip">
+
+                <Button
+                        android:id="@+id/OPTPPCK2Ambil_BtnSubmit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit" style="@style/btnStyleGreen"
+                        android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

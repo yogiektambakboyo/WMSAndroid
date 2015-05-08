@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#bfbfbf">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="@drawable/wh_taskbg" android:paddingTop="2dip"
+            android:paddingBottom="2dip" android:layout_marginTop="2dip" android:layout_marginBottom="2dip">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:layout_marginLeft="7dip">
+            <TextView
+                    android:id="@+id/OPTBPB1_Perusahaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:paddingTop="6dip"
+                    android:paddingBottom="2dip"
+                    android:layout_marginLeft="5dip" android:text="Perusahaan" android:textStyle="bold"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:layout_marginLeft="7dip">
+                <TextView
+                        android:layout_width="80dip"
+                        android:layout_height="wrap_content"
+                        android:text="Kode Nota :"
+                        android:id="@+id/TextView" android:layout_gravity="left|center_vertical" android:textSize="15sp"
+                        android:textColor="#ffffff"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kode Nota"
+                        android:layout_marginLeft="5dip"
+                        android:id="@+id/OPTBPB1_kodenota" android:layout_gravity="left|center_vertical" android:textSize="15sp"
+                        android:textColor="#ffffff" android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:layout_marginLeft="7dip">
+                <TextView
+                        android:layout_width="80dip"
+                        android:layout_height="wrap_content"
+                        android:text="Note          :"
+                        android:id="@+id/TextView" android:layout_gravity="left|center_vertical"
+                        android:textColor="#ffffff"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Note"
+                        android:layout_marginLeft="5dip"
+                        android:id="@+id/OPTBPB1_note" android:layout_gravity="left|center_vertical"
+                        android:textColor="#ffffff" android:textStyle="bold"/>
+            </LinearLayout>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TransactionCode"
+                    android:id="@+id/OPTBPB1_TRCode" android:layout_gravity="left|center_vertical"
+                    android:visibility="invisible" android:textSize="1sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

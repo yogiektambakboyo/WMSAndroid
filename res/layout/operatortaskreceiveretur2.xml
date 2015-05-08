@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@android:color/white">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="@android:color/white">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Receiving Retur"
+                android:id="@+id/textView" android:layout_gravity="center" android:textSize="20sp"
+                android:textIsSelectable="false" android:textColor="@android:color/black" android:textStyle="bold"
+                android:layout_marginBottom="5dip" android:background="@android:color/darker_gray"
+                android:gravity="center_vertical|center_horizontal"/>
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            android:id="@+id/ScrollList"
+            android:orientation="vertical" android:layout_marginTop="5dip" android:layout_weight="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:background="@android:color/white">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="48dip" android:background="#F0ECEB">
+            <EditText
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_CariKode" android:layout_gravity="center" android:hint="Nama Barang/ Barcode"
+                    android:layout_marginLeft="7dip" android:textColor="@android:color/black" android:singleLine="true"
+                    android:maxLength="15" android:textSize="14sp"
+                    android:digits="0123456789qwertzuiopasdfghjklyxcvbnmQWERTZUIOPASDFGHJKLYXCVBNM"/>
+            <Button
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:id="@+id/OPTRR2_CariManual" android:textColor="@android:color/black"
+                    android:textStyle="bold" android:background="@drawable/wh_search"
+                    />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="40dip" android:background="#CEEBFB">
+            <TextView
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="Rak"
+                    android:id="@+id/textView" android:layout_gravity="left|center_vertical"
+                    android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                    android:textSize="16sp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/OPTRR2_Rak" android:layout_gravity="center" android:textColor="#000000"
+                    android:textStyle="bold" android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="40dip" android:background="#A3D6F5" android:baselineAligned="false">
+            <TextView
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Barang"
+                    android:id="@+id/textView" android:layout_gravity="left|center_vertical"
+                    android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                    android:textSize="16sp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/OPTRR2_KodeBrg" android:layout_gravity="center" android:textColor="#000000"
+                    android:textStyle="bold" android:textSize="16sp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_KodeBrgMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                    android:src="@drawable/wh_error"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="40dip" android:background="#CEEBFB">
+            <TextView
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Barang"
+                    android:id="@+id/textView1" android:layout_gravity="left|center_vertical"
+                    android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                    android:textSize="16sp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/OPTRR2_NamaBrg" android:layout_gravity="center" android:textColor="#000000"
+                    android:textStyle="bold" android:textSize="16sp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_NamaBrgMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                    android:src="@drawable/wh_error"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="40dip" android:background="#A3D6F5">
+            <TextView
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="Qty"
+                    android:id="@+id/textView2" android:layout_gravity="left|center_vertical"
+                    android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                    android:textSize="16sp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_Qty" android:layout_gravity="center" android:hint="Jml Brg"
+                    android:textColor="@android:color/black" android:inputType="number" android:singleLine="true"
+                    android:maxLength="8"/>
+            <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_Satuan" android:layout_gravity="center" android:spinnerMode="dialog" android:visibility="visible"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_QtyMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                    android:src="@drawable/wh_error"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="40dip" android:background="#CEEBFB" android:baselineAligned="false">
+            <TextView
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="Exp. Date"
+                    android:id="@+id/textView3" android:layout_gravity="left|center_vertical"
+                    android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                    android:textSize="16sp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_Exp" android:layout_gravity="center" android:hint="Exp. Date"
+                    android:textColor="@android:color/black" android:inputType="date" android:focusable="false"
+                    android:singleLine="true"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_ExpDateMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                    android:src="@drawable/wh_error"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="40dip" android:background="#A3D6F5">
+            <TextView
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="Bin"
+                    android:id="@+id/textView4" android:layout_gravity="left|center_vertical"
+                    android:textColor="@android:color/black" android:layout_marginLeft="7dip" android:textStyle="bold"
+                    android:textSize="16sp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_Bin" android:layout_gravity="center" android:hint="Bin"
+                    android:textColor="@android:color/black" android:singleLine="true" android:maxLength="7"
+                    android:inputType="number"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OPTRR2_BinMsg" android:layout_gravity="center" android:adjustViewBounds="false"
+                    android:src="@drawable/wh_error"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="50dip" android:background="#F0ECEB" android:layout_gravity="center"
+                      android:gravity="center_vertical|center_horizontal">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tambah"
+                    android:layout_marginTop="5dip"
+                    android:id="@+id/OPTRR2_Tambah" android:layout_gravity="center" style="@style/btnStyleDarkBlue"
+                    android:layout_marginLeft="5dip" android:layout_marginBottom="5dip"/>
+        </LinearLayout>
+
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daftar Barang Retur :"
+                android:id="@+id/textView2" android:layout_gravity="center" android:layout_marginTop="5dip"
+                android:textStyle="bold" android:textSize="18dip" android:textColor="@android:color/black"/>
+        <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="50dip" android:background="#F0ECEB" android:layout_gravity="center"
+                      android:gravity="center_vertical|center_horizontal" android:layout_marginTop="10dip">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Simpan"
+                    android:layout_marginTop="5dip"
+                    android:id="@+id/OPTRR2_Simpan" android:layout_gravity="center" style="@style/btnStyleGreen"
+                    android:layout_marginLeft="5dip" android:layout_marginBottom="5dip"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

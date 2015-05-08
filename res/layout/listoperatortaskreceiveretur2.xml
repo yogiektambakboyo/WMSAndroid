@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#ffffff">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:showDividers="end">
+
+        <TextView
+                android:id="@+id/OPTRR2_ListNamaBrg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:paddingTop="6dip"
+                android:paddingBottom="2dip"
+                android:layout_marginLeft="5dip" android:text="Nama Barang" android:textStyle="bold"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="20dip" android:paddingLeft="7dip"
+                      android:layout_marginTop="2dip">
+            <TextView
+                    android:layout_width="70dip"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah   :"
+                    android:id="@+id/textView2" android:layout_gravity="center" android:textColor="@android:color/black"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_gravity="center">
+                <TextView
+                        android:layout_width="80dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="Jumlah"
+                        android:id="@+id/OPTRR2_ListJumlah" android:layout_gravity="left|center_vertical"
+                        android:textColor="#000000" android:textStyle="bold"/>
+            </LinearLayout>
+            <TextView
+                    android:layout_width="60dip"
+                    android:layout_height="wrap_content"
+                    android:text="Expired :"
+                    android:id="@+id/textView2" android:layout_gravity="center" android:textColor="@android:color/black"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_gravity="center">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="Exp Date"
+                        android:id="@+id/OPTRR2_ListExpdate" android:layout_gravity="left|center_vertical"
+                        android:textColor="#000000" android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="20dip" android:paddingLeft="7dip" android:layout_marginBottom="5dip">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_gravity="center">
+                <TextView
+                        android:layout_width="70dip"
+                        android:layout_height="wrap_content"
+                        android:text="Kode Bin :"
+                        android:id="@+id/textView" android:layout_gravity="center"
+                        android:textColor="@android:color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_gravity="center">
+                <TextView
+                        android:layout_width="80dip"
+                        android:layout_height="wrap_content"
+                        android:text="Kode Bin"
+                        android:layout_marginLeft="5dip"
+                        android:id="@+id/OPTRR2_ListKodeBin" android:layout_gravity="center_horizontal|top"
+                        android:textColor="#000000" android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_gravity="center">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aksi       :"
+                        android:id="@+id/textView1" android:layout_gravity="center_horizontal|top"
+                        android:textColor="@android:color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_gravity="center">
+                <TextView
+                        android:layout_width="80dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="Rack"
+                        android:id="@+id/OPTRR2_ListAksi" android:layout_gravity="center_horizontal|top"
+                        android:textColor="#000000" android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

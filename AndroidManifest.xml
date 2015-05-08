@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.bcp.WMSAndroid"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application android:label="@string/app_name" android:icon="@drawable/ic_wh" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name="MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".OperatorMenu"/>
+        <activity android:name=".OperatorTask"/>
+        <activity android:name=".OperatorTaskRBPB_1"/>
+        <activity android:name=".OperatorTaskRR_1"/>
+        <activity android:name=".OperatorTaskMABB_1"/>
+        <activity android:name=".OperatorTaskMBPB_1"/>
+        <activity android:name=".OperatorTaskMRJT_1"/>
+        <activity android:name=".OperatorTaskMRPLADMIN_1"/>
+        <activity android:name=".OperatorTaskPPCK_1"/>
+        <activity android:name=".OperatorTaskSPCK_1"/>
+        <activity android:name=".CustomSimpleAdapter"/>
+        <activity android:name=".OperatorTaskRBPB_2"/>
+        <activity android:name=".OperatorTaskRBPB_2_ListBrg"/>
+        <activity android:name=".OperatorTaskMBPB_2"/>
+        <activity android:name=".OperatorTaskMBPB_3"/>
+        <activity android:name=".OperatorTaskMBPB_4"/>
+        <activity android:name=".OperatorOutStandingMenu"/>
+        <activity android:name=".OperatorOutStandingRcv"/>
+        <activity android:name=".OperatorTaskPPCK_2"/>
+        <activity android:name=".OperatorTaskPPCK_3"/>
+        <activity android:name=".OperatorTaskPPCK_4"/>
+        <activity android:name=".OperatorTaskPPCK_2AmbilBrg"/>
+        <activity android:name=".OperatorTaskRR_2"/>
+    </application>
+</manifest>

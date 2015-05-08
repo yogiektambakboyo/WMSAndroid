@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" android:background="#F0ECEB">
+        <TextView
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="16sp"
+                android:layout_marginLeft="5dip"
+                android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Barang"
+                android:id="@+id/OPTPPCKDialog_Nama" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textStyle="bold" android:textSize="16sp"
+                android:layout_marginLeft="5sp"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#F0ECEB">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:id="@+id/textView1" android:textColor="@android:color/black" android:textSize="16sp"
+                android:layout_marginLeft="5dip"
+                android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kosong"
+                android:id="@+id/OPTPPCKDialog_Qty" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textStyle="bold" android:textSize="16sp"
+                android:layout_marginLeft="5sp"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#F68B1F"
+                  android:layout_marginTop="10dip">
+        <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Rak"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="Level"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="Exp. Date"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="70dip"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textStyle="bold" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#FDB813"
+                  android:id="@+id/OPTPPCK4_R1">
+        <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Rak_1" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_RakLvl_1" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_ExpDate_1" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Jumlah_1" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#FFCC00"
+                  android:id="@+id/OPTPPCK4_R2">
+        <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Rak_2" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_RakLvl_2" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_ExpDate_2" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Jumlah_2" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#FDB813"
+                  android:id="@+id/OPTPPCK4_R3">
+        <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Rak_3" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_RakLvl_3" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_ExpDate_3" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Jumlah_3" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#FFCC00"
+                  android:id="@+id/OPTPPCK4_R4">
+        <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Rak_4" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_RakLvl_4" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_ExpDate_4" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Jumlah_4" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#FDB813"
+                  android:id="@+id/OPTPPCK4_R5">
+        <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Rak_5" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_RakLvl_5" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_ExpDate_5" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Jumlah_5" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#FFCC00"
+                  android:id="@+id/OPTPPCK4_R6">
+        <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Rak_6" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_RakLvl_6" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_ExpDate_6" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="left"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/OPTPPCKDialog_Jumlah_6" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#FDB813"
+                  android:id="@+id/OPTPPCKDialog_Status"
+            >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tidak Ada Stok"
+                android:id="@+id/TextView" android:layout_gravity="center"
+                android:textColor="@android:color/black" android:textSize="14sp"
+                android:layout_marginLeft="5sp" android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dip" android:background="#F0ECEB" android:gravity="center_vertical|center_horizontal">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batal"
+                android:id="@+id/OPTPPCKDialog_BtnBatal" android:layout_gravity="center" style="@style/btnStyleRed"
+                android:layout_marginRight="10dip"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/OPTPPCKDialog_BtnSubmit" android:layout_gravity="center" style="@style/btnStyleGreen"
+                android:gravity="center_vertical|center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
